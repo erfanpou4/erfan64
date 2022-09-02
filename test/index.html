@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet"> 
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script src="https://kit.fontawesome.com/e52737c4fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nav">
+
+        <div id="continer">
+
+            <h1 id="nameSite">ارس وب</h1>
+
+            <input type="search" id="searchBox" class="font_regular" placeholder="جست وجو">
+
+            <lord-icon src="https://cdn.lordicon.com/qehhcbpv.json" trigger="hover" id="searchIcon"></lord-icon>
+
+            <lord-icon src="https://cdn.lordicon.com/webtefou.json" trigger="loop-on-hover" id="shopping">
+                <span id="circleRed" class="font_regular"><span style="position: relative; top:-5px; color:white; font-size: 13px;">۰</span></span>
+            </lord-icon>
+            
+            <div id="divar"></div>
+
+            <div class="font_black" id="signuporsignin">ورود | ثبت نام</div>
+        </div>
+
+        <hr>
+
+        <ul id="options" class="font_bold">
+            <li class="items" id="item1">
+                <a>خانه</a>
+            </li>
+
+            <li class="items" id="item2">
+                <a>شال</a>
+                <span></span>
+            </li>
+            
+            <li class="items" id="item3">
+                <a>روسری</a>
+                <span></span>
+            </li>
+
+            <li class="items" id="item4">
+                <a>مقنعه</a>
+            </li>
+
+            <li class="items" id="item5">
+                <a>اکسسوری مو</a>
+            </li>
+
+        </ul>
+    </div>
+
+    <main id="mainContiner">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="./banner1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="./banner2.jpg" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        <script src="./swiper-bundle.min.js"></script>
+        <script src="./swiper.js"></script>
+    </main>
+
+    <div id="postsContiner">
+
+        <h1 id="popText" class="font_black">محصولات پرطرفدار<lord-icon src="https://cdn.lordicon.com/kkcllwsu.json" trigger="loop" colors="primary:#ff0000"  delay="1500" style="width:50px;height:50px; position: relative; top: -5px; left: 0px;"></lord-icon></h1>
+
+        <div id="populer">
+            <div class="row">
+                <img src="./image/1.jpg" alt="">
+                <h4 class="font_regular">شال نخی طرح منگوله دار</h4>
+                <h5 class="font_bold"> تومان۸۶,۰۰۰</h5>
+            </div>
+
+            <div class="row">
+                <img src="./image/2.jpg" alt="">
+                <h4 class="font_regular">شال نخی طرح منگوله دار</h4>
+                <h5 class="font_bold"> تومان۸۶,۰۰۰</h5>
+            </div>
+            <div class="row">
+                <img src="./image/3.jpg" alt="">
+                <h4 class="font_regular">شال نخی طرح منگوله دار</h4>
+                <h5 class="font_bold"> تومان۸۶,۰۰۰</h5>
+            </div>
+            <div class="row">
+                <img src="./image/4.jpg" alt="">
+                <h4 class="font_regular">شال نخی طرح منگوله دار</h4>
+                <h5 class="font_bold"> تومان۸۶,۰۰۰</h5>
+            </div>
+        </div>
+
+        <div id="offerContiner">
+            <h1 id="offerText">پیشنهاد شگفت انگیز</h1>
+            <div id="bgoffer"></div>
+
+            <div id="offerPost">
+                <div class="row">
+                    <img src="./image/1.jpg" alt="">
+                    <h4 class="font_regular">شال نخی طرح منگوله دار</h4>
+                    <h5 class="font_bold"> تومان۸۰,۰۰۰ <del style="color: rgba(0, 0, 0, 0.582);"> تومان۸۶,۰۰۰</del></h5>
+                </div>
+    
+                <div class="row">
+                    <img src="./image/2.jpg" alt="">
+                    <h4 class="font_regular">شال نخی طرح منگوله دار</h4>
+                    <h5 class="font_bold"> تومان۸۰,۰۰۰ <del style="color: rgba(0, 0, 0, 0.582);"> تومان۸۶,۰۰۰</del></h5>
+                </div>
+                <div class="row">
+                    <img src="./image/3.jpg" alt="">
+                    <h4 class="font_regular">شال نخی طرح منگوله دار</h4>
+                    <h5 class="font_bold"> تومان۸۰,۰۰۰ <del style="color: rgba(0, 0, 0, 0.582);"> تومان۸۶,۰۰۰</del></h5>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+</html>
